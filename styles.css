@@ -72,3 +72,50 @@ footer {
     color: white;
     padding: 10px;
 }
+/* Project Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+col:nth-child(1),
+col:nth-child(3) {
+    background-color: #f2f2f2;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+thead {
+    background-color: #34495e;
+    color: white;
+}
+
+tfoot {
+    font-style: italic;
+    text-align: center;
+    border-top: 2px solid #ccc;
+}
+
+/* CSS Transition Effects */
+nav ul li a {
+    transition: background-color 0.3s;
+}
+
+section {
+    transition: transform 0.3s;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
